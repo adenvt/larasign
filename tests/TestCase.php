@@ -2,9 +2,9 @@
 
 namespace Adenvt\Larasign\Tests;
 
+use Adenvt\Larasign\LarasignServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Adenvt\Larasign\LarasignServiceProvider;
 
 class TestCase extends Orchestra
 {

@@ -2,9 +2,9 @@
 
 namespace Adenvt\Larasign;
 
+use Adenvt\Larasign\Commands\LarasignCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Adenvt\Larasign\Commands\LarasignCommand;
 
 class LarasignServiceProvider extends PackageServiceProvider
 {
